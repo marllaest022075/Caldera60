@@ -1,0 +1,30 @@
+Tarjeta PLC Control Shield con 6 entradas optoacopladas y 5 Salidas a Relevador.
+
+Con la tarjeta Control Shield puedes convertir tu tarjeta Arduino en un PLC, ya que contiene:
+1. Hasta 6 Entradas optoacopladas de 5 a 24Vdc. 
+    Conectadas a la pines 
+       D7, 
+       D8, 
+       D9, 
+       D10, 
+       D11, 
+       D12.
+2. Hasta 5 Salidas a Relevador 5A 250Vac, 5A 30 Vdc. 
+    Conectadas a los pines 
+       D2, 
+       D3, 
+       D4, 
+       D5,
+       D6.
+3. Entrada de alimentación de 8 a 35Vdc (recomendado 8 a 24Vdc).
+4. Adicional, viene disponible el acceso a todos las demás lineas de entrada/salida del arduino uno.
+5. Header J9 para acceder a los siguientes voltajes:
+   0V = GND Arduino uno y tarjeta control Shield.
+   5VS = 5V de regulador de la tarjeta control Shield.
+   5VA =5V del regulador de la tarjeta Arduino.
+   3VA = 3.3V del regulador de 3.3V de la tarjeta Arduino uno.
+6. Header J5 para acceder a los siguientes Lineas:
+   5VS = 5V de regulador de la tarjeta control Shield.
+   0V = GND Arduino uno y tarjeta control Shield.
+   RX = linea RX Arduino uno.
+   TX = linea TX Arduino uno.
